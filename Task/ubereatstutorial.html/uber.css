@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'REM', sans-serif;
+}
+.main{
+    padding: 0 20px;
+    background-image:url(Img/uberbg.png);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.uber{
+    height: 80px;
+    font-size: 35px;
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-bottom: 80px;
+}
+
+.login{
+    padding: 15px 25px 15px 25px;
+    margin: 10px;
+    font-size: 15px;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: none;
+}
+.singup{
+    padding: 15px 25px 15px 25px;
+    margin: 10px;
+    font-size: 15px;
+    border-radius: 25px;
+    background-color: rgb(15, 14, 14);
+    color: white;
+    cursor: pointer;
+}
+
+.oder{
+    font-size: 30px;
+    /* border: 2px solid; */
+    padding-left: 50px;
+}
+.oder h2
+{
+   padding-bottom: 40px;
+}
+input
+{
+    border: none;
+    padding: 15px 250px 15px 10px;
+    font-size: 15px; 
+}
+.select
+{
+    padding: 16px 30px 16px 10px;
+    border: none;
+}
+.button
+{
+      font-size: 18px;   
+      padding: 14px 20px 14px 20px;
+      border: none;
+      border-radius: 10px;
+      background-color: black;
+      color: white;
+}
+.p{
+
+    padding-top: 30px;
+    font-size: 16px ;
+    word-spacing: 1px;
+}
+.p a{
+    color: black;
+}
+.td1{
+    text-align: right;
+}
+.bg{
+    height: 80px;
+}
+.img1, .img2, .img3{
+    padding: 0px 20px;
+    width: 500px;
+    height: 250px;
+} 
+.feed1{
+
+    font-size: 25px;
+    padding: 10px 20px;
+}
+.add1{
+    text-decoration: underline;
+    padding: 0px 20px;
+}
+.me1{
+    font-weight: bold;
+    font-size: 40px;
+    padding: 30px 20px;
+}
+.me3{
+    text-align: right;
+    padding-right: 20px;
+    text-decoration: underline;
+}
+.map{
+    margin: 50px 0;
+    padding: 0px 20px;
+    /* height: 60px; */
+    margin-bottom: 80px;
+}
+.me01{
+    width: 30%;
+    font-weight: bold;
+    height: 70px;
+    font-size: 30px;
+    padding: 0px 20px;
+}
+.hello{
+    padding: 0px 20px;
+    height: 50px;
+    cursor: pointer;
+}
+.map-2{
+    margin-left: 900px;
+    /* border: 2px solid; */
+} 
+/* .mapp{
+    margin: 50px 0;
+    padding: 0px 20px;
+    height: 60px;
+    margin-bottom: 20px;
+
+} */
+/* .map-2 .map-1
+{  
+    border: 2px solid;
+}
+
+/* .svg{
+    cursor: pointer;
+    padding: 0px 20px;
+}
+.mapp:hover{
+    cursor: pointer;
+    text-decoration: underline;
+} */
+
