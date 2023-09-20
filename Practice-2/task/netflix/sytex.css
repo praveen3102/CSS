@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Fira+Sans:wght@300;400&family=Montserrat:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.Container {
+    height: 750px;
+    /* background-color: black; */
+    background: url(./Netflix\ img.jpg) rgba(38, 38, 38, 0.9);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    width: 33%;
+    text-align: center;
+}
+
+.select {
+    padding-top: 30px;
+    width: 25%;
+}
+
+.english,
+.english-1
+ {
+    margin: 0px 10px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    font-size: 16px;
+}
+
+.singin {
+    margin: 0px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e50914;
+    color: white;
+    padding: 5px 15px;
+    font-size: 16px;
+}
+
+.unlimited {
+    padding-top: 150px;
+    text-align: center;
+}
+
+.para {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.para-2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 25px;
+    /* font-weight: bold; */
+    color: white;
+}
+
+.email {
+    height: 50px;
+    width: 400px;
+    border: 1px solid white;
+    font-size: 17px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+
+.get {
+    height: 50px;
+    width: 190px;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    margin-left: 8px;
+    margin-top: 5px;
+    color: white;
+    background-color: #e50914;
+    padding-top: 11px;
+    padding-left: 30px;
+    text-align: left;
+    padding-bottom: 13px;
+}
+
+.Container2 {
+    background-color: black;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    border-top: 8px solid rgb(79, 79, 79);
+    border-bottom: 8px solid rgb(79, 79, 79);
+    padding-left: 150px;
+}
+
+.box-2 {
+    width: 50%;
+}
+
+.enjoy {
+    font-size: 45px;
+    color: white;
+    font-weight: bolder;
+    font-family: sans-serif;
+    padding-bottom: 30px;
+}
+
+.watch {
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.Container2 img {
+
+    width: 40%;
+}
+.main-div-2 {
+    border-bottom: 8px solid rgb(79, 79, 79);
+    background-color: #000;
+    height: 80vh;
+}
+
+.container-1 {
+    display: flex;
+}
+
+.image1 {
+    padding-top: 50px;
+    padding-left: 180px;
+
+}
+
+.text-2 h1 {
+    padding-top: 150px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    padding-left: 25px;
+}
+
+.text-2 p {
+    padding-top: 20px;
+    padding-left: 25px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.text00 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+    padding-left: 10px;
+   padding-top: 6px;
+}
+
+.text11 {
+    margin-top: 25px;
+    color: blue;
+    cursor: pointer;
+    margin-left: -111px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.text {
+    width: 230px;
+    border: 1px solid wheat;
+    display: flex;
+    margin-left: 315px;
+
+}
+
+.stimage {
+    cursor: pointer;
+}
+
+.smallicon {
+    margin-top: 20px;
+    padding-left: 15px;
+    width: 55px;
+    height: 43px;
+}
+/*------------------------------------------- page3------------------------------------- */
+.main-div-3{
+    background-color: black;
+    height: 70vb;
+    border-bottom: 8px solid rgb(79, 79, 79);
+}
+.container-2{
+    display: flex;
+}
+.text-3{
+    color: white;
+}
+.text-3 h1{
+    color: white;
+    padding-top: 150px;
+    padding-left: 150px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text-3 p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 25px;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+.image{
+    padding: 100px 0px 0px 100px;
+}
+/*---------------------------------------------------- page5-------------------------------- */
+.main-div-4{
+    background-color: black;
+    height: 70vb;
+    border-bottom: 8px solid rgb(79, 79, 79);
+}
+.container-3{
+    display: flex;
+    padding-left: 100px;
+}
+.img1{
+    padding-top: 50px;
+    /* padding-right: 180px; */
+}
+.text-4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 25px;
+    padding-left: 80px;
+    padding-top: 190px;
+
+}
+.text-4 h1{
+    padding-bottom: 20px;
+}
+.main-div-5{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: black;
+    border-bottom: 8px solid rgb(79, 79, 79);
+}
+.main-div-5 h1{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 50px;
+    text-align: center;
+}
+.main-div-5 .asked{
+    width: 75%;
+    margin: 0 auto;
+    background-color: rgb(56, 56, 56);
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 15px;
+    
+}
+.main-div-5 .asked .What{
+    color: white;
+    font-size: 29px;
+}
+.main-div-5 .asked .that{
+    display: none;
+    color: white;
+    font-size: 22px;
+    padding-top: 17px;
+}
+.main-div-5 .asked .What:hover+ .that 
+{
+   display: block;
+}
+
+
+.main-div-5 .ready{
+    width: 50%;
+    margin: 50px auto;
+}
+.main-div-5 .ready p{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+/*--------------------------------------------- page6-------------------------- */
+.main-div-6{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #000;
+}
+.main-div-6 .under-main-div-6{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    
+}
+.call{
+    padding-left: 55px;
+    word-spacing: 5px;
+}
+.main-div-6 .under-main-div-6 .last-box
+{
+    display: flex;
+    justify-content: space-evenly;
+
+} 
+.main-div-6 .under-main-div-6 .last-box div
+{
+    width: 20%;
+    padding-top: 25px;
+    
+    
+} 
+.main-div-6 .under-main-div-6 .last-box div p
+{
+   padding-top: 15px;  
+} 
+.english-1{
+    margin: 0;
+}

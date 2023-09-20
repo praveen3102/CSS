@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background in Css</title>
+</head>
+<style>
+    div{
+        height: 500px;
+        margin: 10px;
+    }
+    /* h1{
+        border: 2px solid black;
+    } */
+    .background-attachment{
+        border: 7px dashed yellow;
+        color: rgb(23, 195, 58);
+        background-image: url(../Img/img.jpg);
+        text-align: center;
+        background-repeat: repeat;
+        background-size: cover; 
+        background-position: center;
+        background-attachment: fixed; 
+        padding-top: 100px;
+         }
+         .fixed{
+            border: 7px dashed red;
+            color: blueviolet;
+            background-image: url(../Img/img.jpg);
+            background-repeat: repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: scroll;
+            padding: 100%;
+            
+         }
+</style>
+<body>
+    <h1>background-attachment</h1>
+    <div class="background-attachment">
+       <h2>background-attachment <br>fixed <br> scroll
+       </h2></div>
+       <br>
+       <br>
+       <div class="fixed">background-attachment
+       </div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background in Css</title>
+    <style>
+        div{
+            height: 500px;
+            margin: 10px;
+        }
+        .background-clip{
+            border: 7px solid black;
+            color: aqua;
+            background-image: url(../Img/img.jpg);
+            padding: 52px;
+            background-repeat: no-repeat;
+            /* background-position: left; */
+            /* background-clip: border-box;
+            background-clip: content-box; */
+        }
+        .border-box{
+            border:10px dotted yellow;
+            color: blueviolet;
+            background-image: url(../Img/img.jpg);
+            background-repeat: no-repeat;
+            background-clip: border-box;
+            padding: 50px;
+        }
+        .padding-box{
+            border: 10px dotted yellow;
+            color: aqua;
+            background-image: url(../Img/img.jpg);
+            background-repeat: no-repeat;
+            background-clip: padding-box;
+            padding: 50px;
+        }
+        .content-box{
+            border: 10px dotted yellow;
+            color: blueviolet;
+            background-image: url(../Img/img.jpg);
+            background-repeat: no-repeat;
+            background-clip: content-box;
+            padding: 50px;
+        }
+        
+    </style>
+</head>
+<body>
+<h1>background-clip</h1>
+<div class="background-clip">background-clip</div>
+<br>
+<br><br>
+<div class="border-box"><h1>border-box</div>
+    <br>
+    <div class="padding-box"><h1>padding-box</div>
+        <br>
+        <div class="content-box"><h1>content-box</div>
+</body>
+</html>

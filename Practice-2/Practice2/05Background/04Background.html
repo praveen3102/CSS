@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background in Css</title>
+</head>
+<style>
+    div{
+        height: 500px;
+        margin: -10px;
+    }
+    .background-origin{
+        border: 7px solid black;
+        color: blue;
+        background-image: url(../Img/img.jpg);
+        background-repeat: no-repeat;
+        background-position:center;
+        box-sizing: border-box;
+        padding: -100%;
+        background-origin: border-box;
+        background-origin: content-box;
+        background-origin: padding-box;
+        background-origin: inherit;
+        background-origin: unset;
+    }
+</style>
+<body>
+    <h1>background-origin</h1>
+    <div class="background-origin">background-origin</div>
+    <br>
+    <div class=""></div>
+</body>
+</html>
