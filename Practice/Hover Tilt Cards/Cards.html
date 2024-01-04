@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Tilt Cards</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        padding: 10% 0% 0% 105;
+        /* margin: 100px; */
+        background-color: black;
+        color: antiquewhite;
+        
+
+    }
+    .cards{
+        width: 1000px;
+        height: 500px;
+        display: flex;
+        border: 4px solid white;
+        border-radius: 10px;
+        overflow-x: auto;
+        
+    }
+    .cards > img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        flex-shrink: 0;
+        position: sticky;
+        left: 0;
+    }
+</style>
+<body>
+    <div class="cards">
+        <img src="./Img/24-audi-png-car-image.png" alt="">
+        <img src="./Img/pexels-photo-63764.jpeg" alt="">
+        <img src="./Img/road-car-vehicle-170811.jpg" alt="">
+        <img src="./Img/wp4264986.webp" alt="">
+        <img src="./Img/wp6522801.webp" alt="">
+    </div>
+</body>
+</html>
